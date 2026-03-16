@@ -1,0 +1,51 @@
+[
+  {
+    "id": "k1",
+    "topic": "patio_install",
+    "title": "Patio Installation Guide",
+    "source": "Internal service manual v2.3",
+    "content": "Patio installation requires excavation to 4-6 inches below grade. Apply a 4-inch compacted gravel base, then a 1-inch sand bedding layer. Pavers should be set with 1/8-inch joints filled with polymeric sand. Standard crew: 2 workers minimum, 3 recommended for jobs over 300 sqft. Estimated duration: 1 day per 100 sqft with 2-person crew. Allow 24 hours cure time before foot traffic. In Ohio, install after last frost (April 15 avg). Materials needed: pavers, gravel base, bedding sand, polymeric jointing sand, edge restraints."
+  },
+  {
+    "id": "k2",
+    "topic": "lawn_aeration",
+    "title": "Core Aeration Procedure",
+    "source": "Ohio State Extension — Turf Management HYG-4020",
+    "content": "Core aeration removes plugs 2-3 inches deep and 0.5-0.75 inches in diameter, spaced 2-4 inches apart. Best timing in Ohio: fall (Sept 1 - Oct 15) or spring (April 15 - May 31). Avoid summer aeration — heat stress. Water the lawn 1 day before to soften soil. Leave plugs on surface — they break down in 2 weeks. Follow immediately with overseeding for best results. Ideal for compacted soils, clay-heavy lawns, or high-traffic areas. Equipment: walk-behind core aerator (1/4 acre) or tow-behind (1 acre+). Avoid aerating near irrigation heads."
+  },
+  {
+    "id": "k3",
+    "topic": "tree_health",
+    "title": "Tree Disease & Deficiency Diagnosis",
+    "source": "ISA (International Society of Arboriculture) — Field Guide",
+    "content": "Yellowing leaves (chlorosis) may indicate: (1) Iron/manganese deficiency — interveinal yellowing on new growth, common in alkaline Ohio soils above pH 7.0. Treatment: chelated iron soil injection or foliar spray. (2) Verticillium wilt — sudden wilting and yellowing on one side of tree, dark streaking in wood. No cure; prune affected branches. (3) Oak wilt — brown streaking from leaf margins inward, rapid wilting. Serious — can kill tree in one season. Do NOT prune oaks April-July (beetle transmission risk). For diagnosis: check soil pH (ideal 6.0-7.0), inspect roots for dark/mushy tissue (root rot), and look for fungal fruiting bodies at base."
+  },
+  {
+    "id": "k4",
+    "topic": "overseeding",
+    "title": "Ohio Lawn Overseeding Procedure",
+    "source": "Ohio State Extension — HYG-4010",
+    "content": "Ohio overseeding window: September 1 through October 15 for cool-season grasses. Spring overseeding possible April 15 - May 15 but fall is preferred. Steps: (1) Mow existing lawn to 1.5 inches. (2) Dethatch if thatch exceeds 0.5 inch — use power rake. (3) Core aerate to improve seed-to-soil contact. (4) Apply starter fertilizer 10-10-10 at 4 lbs/1000 sqft on day of seeding. (5) Overseed at 3-4 lbs/1000 sqft for Kentucky bluegrass, 6-8 lbs for tall fescue. (6) Lightly rake seed into soil or slit-seed for best results. (7) Water lightly twice daily for 3-4 weeks until germination. Do NOT apply pre-emergent herbicide within 90 days of overseeding."
+  },
+  {
+    "id": "k5",
+    "topic": "invoicing",
+    "title": "Invoice & Payment Procedures",
+    "source": "Company SOP — Billing v1.1",
+    "content": "All invoices must include: job description, labor hours x rate, materials at 25% markup, subtotal, Ohio sales tax (7.25% as of 2024), and payment terms. Standard terms: Net-30 for commercial, due on completion for residential. Accepted payment methods: ACH (preferred, no fee), business check, credit card (2.9% + $0.30 surcharge — disclose to customer). Late payment: 1.5% per month after 30 days. Invoice numbering: INV-YYYY-NNNN. Send via email PDF within 24 hours of job completion. For jobs over $5,000, require 30% deposit before scheduling. Include before/after photos in invoice package."
+  },
+  {
+    "id": "k6",
+    "topic": "lawn_treatment",
+    "title": "Lawn Fertilization & Treatment Program",
+    "source": "Internal agronomist guide",
+    "content": "5-step Ohio lawn treatment program: (1) Early spring (March-April): Pre-emergent crabgrass control + slow-release nitrogen (18-0-6). (2) Late spring (May-June): Broadleaf weed control + balanced fertilizer (20-5-10). (3) Summer (July-Aug): Insect control if grubs present + iron supplement for color. (4) Early fall (Sept): Aeration + overseeding + starter fertilizer 10-10-10. (5) Late fall (Oct-Nov): Winterizer fertilizer (5-10-30) for root development. Always conduct soil test first — Ohio soils commonly need lime to raise pH. Application rate: follow label. Notify homeowner 24 hrs before application. Post flags after treatment. Watering: not required for granular, 30 min after liquid."
+  },
+  {
+    "id": "k7",
+    "topic": "spring_cleanup",
+    "title": "Spring Cleanup Service Checklist",
+    "source": "Company SOP — Services v3.0",
+    "content": "Standard spring cleanup includes: (1) Remove all winter debris — leaves, sticks, dead plant material. (2) Cut back ornamental grasses and perennials to 3 inches. (3) Edge all beds and define bed lines. (4) Apply 2-3 inch layer of mulch to all beds (do NOT volcano-mound around trees). (5) Clean up turf edges along hardscapes. (6) First mow of the season at 3 inches — never remove more than 1/3 blade. (7) Blow all hard surfaces clean. (8) Inspect irrigation heads if applicable. Common upsells: mulch delivery, bed weed pre-emergent, tree/shrub fertilization. Timing: after last frost date, typically April 15-30 in NE Ohio."
+  }
+]

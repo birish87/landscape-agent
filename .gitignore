@@ -1,0 +1,26 @@
+# Secrets
+.env
+
+# Python
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Vector DB (ephemeral, rebuild on server)
+chroma_db/
+
+# Build artifacts
+*.zip
+dist/
+*.egg-info/
+
+# OS clutter
+.DS_Store
+Thumbs.db
+
+# IDE
+.idea/
+.vscode/

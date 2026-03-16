@@ -1,0 +1,61 @@
+{
+  "_comment": "This is your dummy database. In production, replace each section with real API calls to LMN, SingleOps, or your internal DB.",
+
+  "crews": [
+    {
+      "id": "A",
+      "name": "Team Alpha",
+      "size": 3,
+      "specialties": ["lawn_care", "aeration", "overseeding", "spring_cleanup"],
+      "available": ["Mon", "Tue", "Thu", "Fri"],
+      "hourly_rate_per_member": 55
+    },
+    {
+      "id": "B",
+      "name": "Team Bravo",
+      "size": 4,
+      "specialties": ["hardscape", "patio_install", "retaining_walls", "grading"],
+      "available": ["Tue", "Wed", "Fri"],
+      "hourly_rate_per_member": 60
+    },
+    {
+      "id": "C",
+      "name": "Team Charlie",
+      "size": 2,
+      "specialties": ["tree_pruning", "tree_removal", "lawn_treatment", "fertilization"],
+      "available": ["Mon", "Wed", "Thu"],
+      "hourly_rate_per_member": 65
+    }
+  ],
+
+  "pricing": {
+    "_comment": "base_hours = hours for 1 crew member on a standard-sized job. size_factor scales this linearly. material_cost = base material cost before markup.",
+    "material_markup": 1.25,
+    "tax_rate": 0.0725,
+    "services": {
+      "lawn_aeration":  { "base_hours": 2.0, "material_cost": 40,   "unit": "per 1000 sqft", "min_crew": 1 },
+      "patio_install":  { "base_hours": 16.0,"material_cost": 1200, "unit": "per job",        "min_crew": 2 },
+      "tree_pruning":   { "base_hours": 3.0, "material_cost": 80,   "unit": "per tree",       "min_crew": 1 },
+      "overseeding":    { "base_hours": 2.0, "material_cost": 120,  "unit": "per 1000 sqft",  "min_crew": 1 },
+      "spring_cleanup": { "base_hours": 4.0, "material_cost": 60,   "unit": "per job",        "min_crew": 2 },
+      "lawn_treatment": { "base_hours": 1.0, "material_cost": 90,   "unit": "per 1000 sqft",  "min_crew": 1 },
+      "tree_removal":   { "base_hours": 8.0, "material_cost": 200,  "unit": "per tree",       "min_crew": 3 },
+      "retaining_wall": { "base_hours": 12.0,"material_cost": 800,  "unit": "per job",        "min_crew": 2 },
+      "fertilization":  { "base_hours": 1.0, "material_cost": 60,   "unit": "per 1000 sqft",  "min_crew": 1 }
+    }
+  },
+
+  "open_jobs": [
+    { "id": "JOB-001", "customer": "Johnson Residence",   "service": "spring_cleanup", "scheduled": "Mon", "crew": "A", "status": "scheduled" },
+    { "id": "JOB-002", "customer": "Miller Commercial",   "service": "lawn_treatment", "scheduled": "Tue", "crew": "C", "status": "in_progress" },
+    { "id": "JOB-003", "customer": "Davis Property",      "service": "tree_pruning",   "scheduled": "Wed", "crew": "C", "status": "scheduled" },
+    { "id": "JOB-004", "customer": "Green Acres HOA",     "service": "lawn_aeration",  "scheduled": "Thu", "crew": "A", "status": "scheduled" },
+    { "id": "JOB-005", "customer": "Riverside Estates",   "service": "patio_install",  "scheduled": "Fri", "crew": "B", "status": "scheduled" }
+  ],
+
+  "customers": [
+    { "id": "C-001", "name": "Thomas Johnson", "address": "112 Oak St, Youngstown OH", "email": "t.johnson@email.com", "ytd_revenue": 1840 },
+    { "id": "C-002", "name": "Miller Commercial LLC",   "address": "800 Commerce Blvd, Youngstown OH", "email": "ops@millerco.com", "ytd_revenue": 6200 },
+    { "id": "C-003", "name": "Green Acres HOA",         "address": "Various, Youngstown OH",  "email": "hoa@greenacres.com", "ytd_revenue": 12400 }
+  ]
+}
